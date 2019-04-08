@@ -1,0 +1,11 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/LimitAdTracking.framework/LimitAdTracking
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _LimitAdTrackingVersionNumber, _LimitAdTrackingVersionString ]
+    objc-classes:       [ _ADOptInStatusClient ]
+...

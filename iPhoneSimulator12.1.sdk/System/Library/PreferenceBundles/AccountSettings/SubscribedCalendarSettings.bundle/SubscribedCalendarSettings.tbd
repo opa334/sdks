@@ -1,0 +1,13 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/PreferenceBundles/AccountSettings/SubscribedCalendarSettings.bundle/SubscribedCalendarSettings
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _kSubCalAccountSetupPlist ]
+    objc-classes:       [ _SubCalSettingsAccountsUIController, _SubCalSettingsPlugin ]
+    objc-ivars:         [ _SubCalSettingsAccountsUIController._broughtUpInitialKeyboard,
+                          _SubCalSettingsAccountsUIController._plistSpecifiers ]
+...

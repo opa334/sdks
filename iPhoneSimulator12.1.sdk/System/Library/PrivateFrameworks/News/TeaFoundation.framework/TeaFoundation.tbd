@@ -1,0 +1,11 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/News/TeaFoundation.framework/TeaFoundation
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _TeaFoundationVersionNumber, _TeaFoundationVersionString ]
+    objc-classes:       [ _TFCapabilities, __TtC13TeaFoundation12ProxyContext ]
+...

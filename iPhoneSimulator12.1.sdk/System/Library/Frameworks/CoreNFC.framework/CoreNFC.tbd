@@ -1,0 +1,32 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/CoreNFC.framework/CoreNFC
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _CoreNFCVersionNumber, _CoreNFCVersionString, _NFCErrorDomain, _NFCISO15693TagResponseErrorKey ]
+    objc-classes:       [ _NFCError, _NFCHardwareManager, _NFCHardwareManagerCallbacks, _NFCHardwareManagerInterface,
+                          _NFCISO15693CustomCommandConfiguration, _NFCISO15693ReadMultipleBlocksConfiguration,
+                          _NFCISO15693ReaderSession, _NFCISO15693Tag, _NFCNDEFMessage, _NFCNDEFPayload, _NFCNDEFReaderSession,
+                          _NFCReaderSession, _NFCSession, _NFCTag, _NFCTagCommandConfiguration ]
+    objc-ivars:         [ _NFCHardwareManager._delegates, _NFCHardwareManager._xpcSession,
+                          _NFCISO15693CustomCommandConfiguration._customCommandCode,
+                          _NFCISO15693CustomCommandConfiguration._flags,
+                          _NFCISO15693CustomCommandConfiguration._manufacturerCode,
+                          _NFCISO15693CustomCommandConfiguration._requestParameters,
+                          _NFCISO15693ReadMultipleBlocksConfiguration._chunkSize,
+                          _NFCISO15693ReadMultipleBlocksConfiguration._flags, _NFCISO15693ReadMultipleBlocksConfiguration._range,
+                          _NFCNDEFMessage._records, _NFCNDEFPayload._identifier, _NFCNDEFPayload._payload, _NFCNDEFPayload._type,
+                          _NFCNDEFPayload._typeNameFormat, _NFCNDEFReaderSession._foundTags,
+                          _NFCNDEFReaderSession._invalidateAfterFirstRead, _NFCNDEFReaderSession._presenceCheckTimer,
+                          _NFCNDEFReaderSession._tagsRead, _NFCReaderSession._alertMessage, _NFCReaderSession._connectedTag,
+                          _NFCReaderSession._delegate, _NFCReaderSession._invalidated, _NFCReaderSession._invalidationCode,
+                          _NFCReaderSession._pollMethod, _NFCReaderSession._pollRestartLock, _NFCReaderSession._proxy,
+                          _NFCReaderSession._queue, _NFCReaderSession._sessionStartInProgress, _NFCReaderSession._started,
+                          _NFCSession._connection, _NFCSession._connectionLock, _NFCSession._delegate,
+                          _NFCSession._exportedObject, _NFCSession._exportedObjectInterface, _NFCSession._machServiceName,
+                          _NFCSession._queue, _NFCSession._remoteObjectInterface, _NFCTag._session, _NFCTag._tag,
+                          _NFCTagCommandConfiguration._maximumRetries, _NFCTagCommandConfiguration._retryInterval ]
+...

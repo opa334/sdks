@@ -1,0 +1,19 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
+current-version:       425.222.1
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _LAAvailableMechanisms, _LACopyExternalizedContext, _LAErrorDomain, _LAErrorInfoBiometryType,
+                          _LAErrorInfoTCCServerPrompt, _LAErrorInfoTCCService, _LAErrorSubcodeKey, _LAFingerDatabaseHash,
+                          _LAPasswordRetryTime, _LATouchIDAuthenticationMaximumAllowableReuseDuration ]
+    objc-classes:       [ _LAClient, _LAContext ]
+    objc-ivars:         [ _LAClient._cachedExternalizedContext, _LAClient._callInvalidationBlocks, _LAClient._existingContext,
+                          _LAClient._permanentError, _LAClient._remoteContext, _LAClient._serverConnection,
+                          _LAClient._shouldRecoverConnection, _LAClient._uiDelegate, _LAClient._uncork_queue,
+                          _LAContext._biometryType, _LAContext._cancelButtonVisible, _LAContext._client,
+                          _LAContext._evaluatedPolicyDomainState, _LAContext._externalizedContext,
+                          _LAContext._fallbackButtonVisible, _LAContext._maxBiometryFailures, _LAContext._prearmContext ]
+...

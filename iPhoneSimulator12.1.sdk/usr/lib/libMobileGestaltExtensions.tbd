@@ -1,0 +1,12 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: B50311D7-0542-3B3D-AB3D-485F0D917BED', 'x86_64: 37AB7B62-E186-345B-AD6B-780E08E36453' ]
+platform:        ios
+install-name:    /usr/lib/libMobileGestaltExtensions.dylib
+objc-constraint: none
+exports:         
+  - archs:           [ i386 ]
+    symbols:         [ __MGSSetLazyFuncs ]
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ __MGSCopyLocalizedString ]
+...

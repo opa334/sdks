@@ -1,0 +1,13 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/ShortcutUIKit.framework/ShortcutUIKit
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    allowed-clients:    [ SpringBoard, 'SpringBoard-Tests', SpringBoardUI, ControlCenterUIKit ]
+    symbols:            [ _ShortcutUIKitBundle, _ShortcutUIKitVersionNumber, _ShortcutUIKitVersionString ]
+    objc-classes:       [ _SCUIAssetProvider ]
+    objc-ivars:         [ _SCUIAssetProvider._assetManager, _SCUIAssetProvider._bundleURL ]
+...

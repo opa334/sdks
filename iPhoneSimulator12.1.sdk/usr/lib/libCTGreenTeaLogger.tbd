@@ -1,0 +1,14 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 00000000-0000-0000-0000-000000000000', 'x86_64: C7BDF2AC-D982-3D84-8FC2-0B73E62B64E7' ]
+platform:        ios
+install-name:    /usr/lib/libCTGreenTeaLogger.dylib
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _ct_green_tea_logger_create, _ct_green_tea_logger_create_static, 
+                       _ct_green_tea_logger_destroy, _ct_green_tea_logging_enabled, 
+                       _getCTGreenTeaOsLogHandle, _kCTGreenTeaMessageDeleteLoggingFormat, 
+                       _kCTGreenTeaMessageReadLoggingFormat, _kCTGreenTeaMessageTransmitLoggingFormat, 
+                       _kCTGreenTeaPhoneNumberTransmitLoggingFormat ]
+...

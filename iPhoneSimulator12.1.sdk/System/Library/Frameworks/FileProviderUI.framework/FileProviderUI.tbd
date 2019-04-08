@@ -1,0 +1,27 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/FileProviderUI.framework/FileProviderUI
+current-version:       68.100.38
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _FPUIActionIdentifierAuthenticate, _FPUIActionViewControllerNavigationBarDoneButtonIdentifier,
+                          _FPUIActionViewControllerNavigationBarIdentifier, _FPUIAppLaunchOrigin, _FPUIErrorDomain,
+                          _FPUIInitLogging, _FPUIPresentActionButtonIdentifier, _FPUInternalActionCancelButtonIdentifier,
+                          _FPUInternalActionContentLabelIdentifier, _FPUInternalActionFailButtonIdentifier,
+                          _FPUInternalActionSucceedButtonIdentifier, _FPUInternalActionTypeLabelIdentifier,
+                          _FileProviderUIVersionNumber, _FileProviderUIVersionString, _fpuiLogHandle ]
+    objc-classes:       [ _FPUIAction, _FPUIActionExtensionContext, _FPUIActionExtensionViewController, _FPUIActionRemoteContext,
+                          _FPUIActionRemoteViewController, _FPUIActionViewController, _FPUIManager ]
+    objc-ivars:         [ _FPUIAction._displayInline, _FPUIAction._displayName, _FPUIAction._identifier, _FPUIAction._predicate,
+                          _FPUIAction._uiActionProviderIdentifier, _FPUIActionExtensionContext._domainIdentifier,
+                          _FPUIActionExtensionViewController._browserUserInterfaceStyle, _FPUIActionRemoteContext._delegate,
+                          _FPUIActionRemoteViewController._delegate, _FPUIActionViewController._actionIdentifier,
+                          _FPUIActionViewController._actionTitle, _FPUIActionViewController._authenticationURL,
+                          _FPUIActionViewController._browserUserInterfaceStyle, _FPUIActionViewController._delegate,
+                          _FPUIActionViewController._displayInline, _FPUIActionViewController._domainIdentifier,
+                          _FPUIActionViewController._error, _FPUIActionViewController._extensionViewController,
+                          _FPUIActionViewController._items, _FPUIActionViewController._placeholderVC,
+                          _FPUIActionViewController._providerIdentifier ]
+...

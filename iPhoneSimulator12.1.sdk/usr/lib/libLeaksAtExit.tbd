@@ -1,0 +1,7 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 0BD50522-A4DB-38A3-A5A0-2270FEF8E15D', 'x86_64: C3A29618-C26E-3604-BE6F-67CAFBB68EB5' ]
+platform:        ios
+install-name:    /usr/lib/libLeaksAtExit.dylib
+objc-constraint: none
+...

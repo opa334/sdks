@@ -1,0 +1,12 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/UIKit.framework/UIKit
+current-version:       61000
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    re-exports:         [ /System/Library/Frameworks/FileProvider.framework/FileProvider,
+                          /System/Library/PrivateFrameworks/DocumentManager.framework/DocumentManager,
+                          /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore ]
+...

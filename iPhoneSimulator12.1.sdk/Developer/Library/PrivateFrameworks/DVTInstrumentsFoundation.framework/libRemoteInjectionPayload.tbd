@@ -1,0 +1,10 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /Developer/Library/PrivateFrameworks/DVTInstrumentsFoundation.framework/libRemoteInjectionPayload.dylib
+current-version:       64460.15
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _local_loader_function, _pthread_local_loader_variant ]
+...

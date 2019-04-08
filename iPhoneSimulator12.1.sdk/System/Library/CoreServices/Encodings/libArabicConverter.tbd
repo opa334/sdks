@@ -1,0 +1,10 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/CoreServices/Encodings/libArabicConverter.dylib
+current-version:       74
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ ___CFStringEncodingGetArabicConverterDefinition ]
+...

@@ -1,0 +1,13 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/DeviceCheck.framework/DeviceCheck
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _DCErrorDomain, _DeviceCheckVersionNumber, _DeviceCheckVersionString, __DCLogSystem ]
+    objc-classes:       [ _DCContext, _DCDevice, _DCDeviceMetadataDaemonConnection, _DCDeviceMetadataInterface ]
+    objc-ivars:         [ _DCContext._clientAppID, _DCDeviceMetadataDaemonConnection._conn,
+                          _DCDeviceMetadataDaemonConnection._connLock ]
+...

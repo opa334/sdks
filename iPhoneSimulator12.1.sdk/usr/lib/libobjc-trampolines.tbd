@@ -1,0 +1,13 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 00000000-0000-0000-0000-000000000000', 'x86_64: 1395C969-5109-3FC1-A3CA-F3FE6C2D9E54' ]
+platform:        ios
+install-name:    /usr/lib/libobjc-trampolines.dylib
+current-version: 228
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ __objc_blockTrampolineImpl, __objc_blockTrampolineImpl_stret, 
+                       __objc_blockTrampolineLast, __objc_blockTrampolineLast_stret, 
+                       __objc_blockTrampolineStart, __objc_blockTrampolineStart_stret ]
+...

@@ -1,0 +1,12 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 685F1294-30E4-3763-A0AE-EC7B054FDD21', 'x86_64: AB9091FB-27AC-3061-AD26-C056CD441C74' ]
+platform:        ios
+install-name:    /usr/lib/libAXSafeCategoryBundle.dylib
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _AXSetUIAXReportSenderErrorLoggerFunction, _AXSetValidationErrorLoggingFunction, 
+                       _UIAccessibilityInstallSafeCategories, _UIAccessibilityInstallSafeCategory ]
+    objc-classes:    [ UIAccessibilitySafeCategory ]
+...

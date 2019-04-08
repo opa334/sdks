@@ -1,0 +1,11 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/SpeakTypingServices.framework/SpeakTypingServices
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    objc-classes:       [ _SpeakTypingServices ]
+    objc-ivars:         [ _SpeakTypingServices._speakTypingClient ]
+...

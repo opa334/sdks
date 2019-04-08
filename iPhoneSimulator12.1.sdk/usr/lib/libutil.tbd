@@ -1,0 +1,15 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: DE751FE0-B1ED-3CF8-A3B2-62A102EB35CC', 'x86_64: F78B8E8E-024F-38CE-B09B-01DE99501C0E' ]
+platform:        ios
+install-name:    /usr/lib/libutil.dylib
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _freemntopts, _getmnt_silent, _getmntoptnum, _getmntopts, 
+                       _getmntoptstr, _humanize_number, _pidfile_close, _pidfile_open, 
+                       _pidfile_remove, _pidfile_write, _realhostname, _realhostname_sa, 
+                       _reexec_to_match_kernel, _reexec_to_match_lp64ness, _tzlink, 
+                       _wipefs_alloc, _wipefs_except_blocks, _wipefs_free, _wipefs_include_blocks, 
+                       _wipefs_wipe ]
+...

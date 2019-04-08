@@ -1,0 +1,18 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/GameKit.framework/GameKit
+current-version:       563.125
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    re-exports:         [ /System/Library/Frameworks/GameController.framework/GameController,
+                          /System/Library/Frameworks/GameplayKit.framework/GameplayKit,
+                          /System/Library/Frameworks/ModelIO.framework/ModelIO,
+                          /System/Library/Frameworks/ReplayKit.framework/ReplayKit,
+                          /System/Library/Frameworks/SceneKit.framework/SceneKit,
+                          /System/Library/Frameworks/SpriteKit.framework/SpriteKit,
+                          /System/Library/Frameworks/UIKit.framework/UIKit,
+                          /System/Library/PrivateFrameworks/GameCenter.framework/GameCenter ]
+    symbols:            [ _GKGameKitUmbrellaFrameworkStub, _kGameKitGameKitVersionNumber, _kGameKitGameKitVersionString ]
+...

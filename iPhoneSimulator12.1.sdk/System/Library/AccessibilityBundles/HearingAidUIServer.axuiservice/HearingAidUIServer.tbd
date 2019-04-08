@@ -1,0 +1,13 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/AccessibilityBundles/HearingAidUIServer.axuiservice/HearingAidUIServer
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ i386, x86_64 ]
+    objc-classes:       [ _AXHearingAidDisplayController, _HearingAidUIServer ]
+    objc-ivars:         [ _AXHearingAidDisplayController._moduleUIController, _AXHearingAidDisplayController._parentController,
+                          _HearingAidUIServer._disableSystemGestureAssertion, _HearingAidUIServer._displayController,
+                          _HearingAidUIServer._emptyViewController, _HearingAidUIServer._handoffAlertController ]
+...

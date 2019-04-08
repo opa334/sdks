@@ -1,0 +1,7 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/URLFormatting.framework/URLFormatting
+current-version:       59.34
+compatibility-version: 1
+...

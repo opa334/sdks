@@ -1,0 +1,11 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+current-version:       935.2
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    re-exports:         [ /System/Library/Frameworks/CoreServices.framework/CoreServices ]
+    symbols:            [ _MobileCoreServicesVersionNumber, _MobileCoreServicesVersionString ]
+...

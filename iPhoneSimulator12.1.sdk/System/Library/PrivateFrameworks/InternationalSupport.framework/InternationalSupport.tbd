@@ -1,0 +1,11 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/InternationalSupport.framework/InternationalSupport
+current-version:       10.15.6
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _InternationalSupportVersionNumber, _InternationalSupportVersionString ]
+    objc-classes:       [ _ISUtilities ]
+...

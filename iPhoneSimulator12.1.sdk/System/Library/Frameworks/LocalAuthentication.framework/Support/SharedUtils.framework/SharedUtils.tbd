@@ -1,0 +1,16 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/SharedUtils
+current-version:       425.222.1
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _LAErrorDomain, _LAErrorSubcodeKey, __isMultiUser ]
+    objc-classes:       [ _LACachedExternalizedContext, _LAErrorHelper, _LAInternalProtocols, _LAParamChecker, _LAPasscodeHelper,
+                          _LASecureData, _LAUtils ]
+    objc-ivars:         [ _LACachedExternalizedContext._cachedExternalizedContext,
+                          _LACachedExternalizedContext._externalizationDelegate,
+                          _LACachedExternalizedContext._externalizationObserver, _LASecureData._allocatedLength,
+                          _LASecureData._bytes, _LASecureData._bytesLength ]
+...

@@ -1,0 +1,40 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _ASCredentialIdentityStoreErrorDomain, _ASExtensionErrorDomain, _ASWebAuthenticationSessionErrorDomain ]
+    objc-classes:       [ _ASBackgroundObserver, _ASCredentialIdentityStore, _ASCredentialIdentityStoreState,
+                          _ASCredentialProviderExtensionContext, _ASCredentialProviderViewController,
+                          _ASCredentialServiceIdentifier, _ASPasswordCredential, _ASPasswordCredentialIdentity,
+                          _ASWebAuthenticationSession, __ASCredentialProviderExtensionConfigurationViewController,
+                          __ASCredentialProviderExtensionHostContext, __ASCredentialProviderExtensionViewController,
+                          __ASPasswordCredentialAuthenticationViewController ]
+    objc-ivars:         [ _ASBackgroundObserver._block, _ASBackgroundObserver._viewController,
+                          _ASCredentialIdentityStore._helperProxy, _ASCredentialIdentityStoreState._enabled,
+                          _ASCredentialIdentityStoreState._supportsIncrementalUpdates,
+                          _ASCredentialServiceIdentifier._identifier, _ASCredentialServiceIdentifier._type,
+                          _ASPasswordCredential._password, _ASPasswordCredential._user, _ASPasswordCredentialIdentity._rank,
+                          _ASPasswordCredentialIdentity._recordIdentifier, _ASPasswordCredentialIdentity._serviceIdentifier,
+                          _ASPasswordCredentialIdentity._user, _ASWebAuthenticationSession._authenticationSession,
+                          __ASCredentialProviderExtensionConfigurationViewController._delegate,
+                          __ASCredentialProviderExtensionConfigurationViewController._extension,
+                          __ASCredentialProviderExtensionConfigurationViewController._remoteViewController,
+                          __ASCredentialProviderExtensionHostContext._delegate,
+                          __ASCredentialProviderExtensionViewController._delegate,
+                          __ASCredentialProviderExtensionViewController._dismissOnBackground,
+                          __ASCredentialProviderExtensionViewController._extension,
+                          __ASCredentialProviderExtensionViewController._remoteViewController,
+                          __ASCredentialProviderExtensionViewController._serviceIdentifiers,
+                          __ASPasswordCredentialAuthenticationViewController._credentialIdentity,
+                          __ASPasswordCredentialAuthenticationViewController._delegate,
+                          __ASPasswordCredentialAuthenticationViewController._dismissOnBackground,
+                          __ASPasswordCredentialAuthenticationViewController._extension,
+                          __ASPasswordCredentialAuthenticationViewController._nonUIHostContext,
+                          __ASPasswordCredentialAuthenticationViewController._nonUIRequestTimer,
+                          __ASPasswordCredentialAuthenticationViewController._remoteViewController,
+                          __ASPasswordCredentialAuthenticationViewController._requestHostContext ]
+...

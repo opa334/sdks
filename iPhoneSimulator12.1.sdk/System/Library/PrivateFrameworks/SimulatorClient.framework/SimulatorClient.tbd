@@ -1,0 +1,10 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SimulatorClient.framework/SimulatorClient
+current-version:       819
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _IndigoHIDSystemSpawnLoopback, _IndigoTvOutExtendedState ]
+...

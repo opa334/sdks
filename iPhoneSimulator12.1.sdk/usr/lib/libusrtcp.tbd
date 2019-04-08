@@ -1,0 +1,11 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 00000000-0000-0000-0000-000000000000', 'x86_64: A5A41314-19E5-3D24-A77C-F608F9849EF2' ]
+platform:        ios
+install-name:    /usr/lib/libusrtcp.dylib
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _nw_protocol_sfotcp_identifier, _nw_protocol_tcp_identifier, 
+                       _tcp_next_mtu ]
+...

@@ -1,0 +1,13 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/AccessibilityBundles/RemoteUIFramework.axbundle/RemoteUIFramework
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ __Failover, _accessibilityLocalizedString ]
+    objc-classes:       [ _AXRemoteUIGlue, _RUIPageAccessibility, _RUITableViewRowAccessibility,
+                          _RemoteUITableViewCellAccessibility, ___RUIPageAccessibility_super,
+                          ___RUITableViewRowAccessibility_super, ___RemoteUITableViewCellAccessibility_super ]
+...

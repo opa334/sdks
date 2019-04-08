@@ -1,0 +1,10 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SharingHUD.framework/SharingHUD
+current-version:       1214.13
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _SharingHUDVersionNumber, _SharingHUDVersionString ]
+...

@@ -1,0 +1,10 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/AccessibilityBundles/WebProcessLoader.axbundle/WebProcessLoader
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ i386, x86_64 ]
+    objc-classes:       [ _AXWebProcessLoader ]
+...

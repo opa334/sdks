@@ -1,0 +1,29 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/VisualTestKit.framework/VisualTestKit
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _NSStringFromVTKAssertID, _VTKID, ___VTKAddHorizontalGuideAt, ___VTKAddSqureGuideAt,
+                          ___VTKAddVerticalGuideAt, ___VTKAssertView, ___VTKSetReferenceImagesDirectory ]
+    objc-classes:       [ _VTKAssert, _VTKAssertID, _VTKAttachmentStoreManager, _VTKBitmapContext, _VTKCompareResult,
+                          _VTKEuclideanComparator, _VTKFileReferenceItemsSource, _VTKFileStoreManager,
+                          _VTKFileStoreManagerResult, _VTKLineDrawItem, _VTKSquareDrawItem, _VTKStoreManagerImageItem,
+                          _VTKStoreManagerItem ]
+    objc-ivars:         [ _VTKAssert._comparator, _VTKAssert._mutableDrawItems, _VTKAssert._referenceItemsSource,
+                          _VTKAssert._storeManager, _VTKAssert._testCase, _VTKAssertID._vtkAssertName,
+                          _VTKAssertID._vtkIDDecorationsMask, _VTKAttachmentStoreManager._fileStoreManager,
+                          _VTKBitmapContext._CGContext, _VTKBitmapContext._CGContextDataBytes,
+                          _VTKBitmapContext._CGContextDataBytesLength, _VTKBitmapContext._bytesPerPixel,
+                          _VTKBitmapContext._colorSpace, _VTKBitmapContext._height, _VTKBitmapContext._width,
+                          _VTKCompareResult._comparisonImage, _VTKCompareResult._succesfull,
+                          _VTKFileReferenceItemsSource._itemsDirectory, _VTKFileStoreManager._itemsDirectory,
+                          _VTKFileStoreManager._saveItemsRootURL, _VTKFileStoreManagerResult._rootFolderItemsURL,
+                          _VTKLineDrawItem._color, _VTKLineDrawItem._orientation, _VTKLineDrawItem._origin,
+                          _VTKSquareDrawItem._color, _VTKSquareDrawItem._frame, _VTKStoreManagerImageItem._fileExtension,
+                          _VTKStoreManagerImageItem._fileSufix, _VTKStoreManagerImageItem._itemData,
+                          _VTKStoreManagerImageItem._itemType, _VTKStoreManagerItem._fileExtension,
+                          _VTKStoreManagerItem._itemData, _VTKStoreManagerItem._itemType ]
+...

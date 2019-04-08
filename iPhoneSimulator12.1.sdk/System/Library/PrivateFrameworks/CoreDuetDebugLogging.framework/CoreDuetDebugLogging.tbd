@@ -1,0 +1,12 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/CoreDuetDebugLogging.framework/CoreDuetDebugLogging
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _CDDSetError, _CDDebugErrorStrings ]
+    objc-classes:       [ _CDDebug ]
+    objc-ivars:         [ _CDDebug.verboseMode ]
+...

@@ -1,0 +1,10 @@
+---
+archs:                 [ i386, x86_64 ]
+platform:              ios
+install-name:          '/System/Library/PrivateFrameworks/FaceCore.framework/fcl-fc-3.dat'
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ i386, x86_64 ]
+    symbols:            [ _stuff ]
+...
