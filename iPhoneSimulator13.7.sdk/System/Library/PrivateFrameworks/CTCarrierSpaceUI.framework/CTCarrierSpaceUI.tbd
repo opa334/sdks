@@ -1,0 +1,20 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/CTCarrierSpaceUI.framework/CTCarrierSpaceUI"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    objc-classes:         [ _CTCarrierSpaceUIPlanPurchaseWebViewController,
+                            _LoadingIndicatorViewController ]
+    objc-ivars:           [ _CTCarrierSpaceUIPlanPurchaseWebViewController._contentView,
+                            _CTCarrierSpaceUIPlanPurchaseWebViewController._delegate,
+                            _CTCarrierSpaceUIPlanPurchaseWebViewController._loadingViewController,
+                            _CTCarrierSpaceUIPlanPurchaseWebViewController._webView,
+                            _LoadingIndicatorViewController._messageLabel,
+                            _LoadingIndicatorViewController._messageText,
+                            _LoadingIndicatorViewController._spinnerView,
+                            _LoadingIndicatorViewController._titleLabel,
+                            _LoadingIndicatorViewController._titleText ]
+...

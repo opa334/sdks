@@ -1,0 +1,25 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/EmergencyAlerts.framework/EmergencyAlerts"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _EACategoryIdentifierAlert,
+                            _EACategoryIdentifierConfigurableAlert,
+                            _EALogDefault, _EALogSubsystem,
+                            _EANotificationCarrierBundleIdentifierKey,
+                            _EANotificationExternalToneFilePathKey,
+                            _EANotificationExternalVibrationPatternFilePathKey,
+                            _EANotificationFromPhoneKey,
+                            _EANotificationSoundIsMutableInRelayModeKey,
+                            _EARegisterUserNotificationsLogging,
+                            _EmergencyAlertsVersionNumber,
+                            _EmergencyAlertsVersionString,
+                            _kEADefaultMaxDuration ]
+    objc-classes:         [ _EACellBroadcastMessageListener,
+                            _EAEmergencyAlertCenter ]
+    objc-ivars:           [ _EACellBroadcastMessageListener._emergencyAlertCenter,
+                            _EAEmergencyAlertCenter._userNotificationCenter ]
+...

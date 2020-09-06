@@ -1,0 +1,47 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/Frameworks/AudioToolbox.framework/libEmbeddedSystemAUs.dylib"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _AUBandpassFactory, _AUConverterFactory,
+                            _AUDeferredRendererFactory, _AUDelayFactory,
+                            _AUDistortionFactory, _AUDynamicsProcessorFactory,
+                            _AUGenericOutputFactory, _AUHapticSynthFactory,
+                            _AUHighShelfFilterFactory, _AUHipassFactory,
+                            _AULopassFactory, _AULowShelfFilterFactory,
+                            _AUMatrixMixerFactory, _AUMatrixReverbLiteFactory,
+                            _AUMergerFactory, _AUMultiChannelMixerFactory,
+                            _AUMultiSplitterFactory, _AUNewPitchFactory,
+                            _AUNewTimePitchFactory,
+                            _AUNotQuiteSoSimpleTimeFactory,
+                            _AUParametricEQFactory, _AUPeakLimiterFactory,
+                            _AUSampleDelayFactory, _AUSimpleTimeFactory,
+                            _AUSpecialPurposeSweepFilterFactory,
+                            _AUSplitterFactory, _AUVarispeedFactory,
+                            _AudioOutputUnitPublish_Impl, _MIDISynthFactory,
+                            _RegisterAudioUnits_Instruments,
+                            _RegisterAudioUnits_Toolbox, _SamplerFactory ]
+    weak-def-symbols:     [ __ZTI11CAException,
+                            __ZTIN5boost16exception_detail10clone_baseE,
+                            __ZTIN5boost16exception_detail10clone_implINS0_19error_info_injectorINS_7bad_getEEEEE,
+                            __ZTIN5boost16exception_detail19error_info_injectorINS_7bad_getEEE,
+                            __ZTIN5boost7bad_getE, __ZTIN5boost9exceptionE,
+                            __ZTINSt3__111regex_errorE,
+                            __ZTINSt3__117bad_function_callE,
+                            __ZTISt11logic_error, __ZTISt12length_error,
+                            __ZTISt12out_of_range, __ZTISt13runtime_error,
+                            __ZTISt9bad_alloc, __ZTISt9exception,
+                            __ZTS11CAException,
+                            __ZTSN5boost16exception_detail10clone_baseE,
+                            __ZTSN5boost16exception_detail10clone_implINS0_19error_info_injectorINS_7bad_getEEEEE,
+                            __ZTSN5boost16exception_detail19error_info_injectorINS_7bad_getEEE,
+                            __ZTSN5boost7bad_getE, __ZTSN5boost9exceptionE,
+                            __ZTSNSt3__111regex_errorE,
+                            __ZTSNSt3__117bad_function_callE,
+                            __ZTSSt11logic_error, __ZTSSt12length_error,
+                            __ZTSSt12out_of_range, __ZTSSt13runtime_error,
+                            __ZTSSt9bad_alloc, __ZTSSt9exception ]
+...

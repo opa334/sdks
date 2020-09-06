@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/CDDataAccess.framework/Frameworks/DACoreDAVGlue.framework/DACoreDAVGlue"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _coreDAVValidationErrorFromRawError ]
+    objc-classes:         [ _DACoreDAVLogger, _DACoreDAVTaskManager ]
+    objc-ivars:           [ _DACoreDAVTaskManager._applicationsShowingActivity ]
+...

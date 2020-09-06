@@ -1,0 +1,14 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/SocialServices.framework/SocialServices"
+current-version:       87
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    objc-classes:         [ _SLGoogleAuthController ]
+    objc-ivars:           [ _SLGoogleAuthController._account,
+                            _SLGoogleAuthController._accountStore,
+                            _SLGoogleAuthController._authenticationSession,
+                            _SLGoogleAuthController._presentationBlock ]
+...

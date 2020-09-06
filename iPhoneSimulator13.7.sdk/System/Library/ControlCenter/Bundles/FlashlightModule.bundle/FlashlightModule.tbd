@@ -1,0 +1,16 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/ControlCenter/Bundles/FlashlightModule.bundle/FlashlightModule"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _FlashlightModuleVersionNumber,
+                            _FlashlightModuleVersionString ]
+    objc-classes:         [ _CCUIFlashlightBackgroundViewController,
+                            _CCUIFlashlightModule,
+                            _CCUIFlashlightModuleViewController ]
+    objc-ivars:           [ _CCUIFlashlightModule._backgroundViewController,
+                            _CCUIFlashlightModule._viewController ]
+...

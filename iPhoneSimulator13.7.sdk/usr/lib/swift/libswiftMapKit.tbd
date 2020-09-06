@@ -1,0 +1,26 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 4C9D271D-EA92-312E-9028-EEC6C3C41C8E', 'x86_64: 540445B7-AFC2-3D9B-B9B4-E20AFC0123CC' ]
+platform:        ios
+install-name:    '/usr/lib/swift/libswiftMapKit.dylib'
+current-version: 0
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ '$ld$install_name$os10.0$@rpath/libswiftMapKit.dylib', '$ld$install_name$os10.1$@rpath/libswiftMapKit.dylib', 
+                       '$ld$install_name$os10.2$@rpath/libswiftMapKit.dylib', '$ld$install_name$os10.3$@rpath/libswiftMapKit.dylib', 
+                       '$ld$install_name$os11.0$@rpath/libswiftMapKit.dylib', '$ld$install_name$os11.1$@rpath/libswiftMapKit.dylib', 
+                       '$ld$install_name$os11.2$@rpath/libswiftMapKit.dylib', '$ld$install_name$os11.3$@rpath/libswiftMapKit.dylib', 
+                       '$ld$install_name$os11.4$@rpath/libswiftMapKit.dylib', '$ld$install_name$os12.0$@rpath/libswiftMapKit.dylib', 
+                       '$ld$install_name$os12.1$@rpath/libswiftMapKit.dylib', '$ld$install_name$os7.0$@rpath/libswiftMapKit.dylib', 
+                       '$ld$install_name$os7.1$@rpath/libswiftMapKit.dylib', '$ld$install_name$os8.0$@rpath/libswiftMapKit.dylib', 
+                       '$ld$install_name$os8.1$@rpath/libswiftMapKit.dylib', '$ld$install_name$os8.2$@rpath/libswiftMapKit.dylib', 
+                       '$ld$install_name$os8.3$@rpath/libswiftMapKit.dylib', '$ld$install_name$os8.4$@rpath/libswiftMapKit.dylib', 
+                       '$ld$install_name$os9.0$@rpath/libswiftMapKit.dylib', '$ld$install_name$os9.1$@rpath/libswiftMapKit.dylib', 
+                       '$ld$install_name$os9.2$@rpath/libswiftMapKit.dylib', '$ld$install_name$os9.3$@rpath/libswiftMapKit.dylib', 
+                       '_$sSo16MKCoordinateSpana6MapKitE19_bridgeToObjectiveCSo7NSValueCyF', 
+                       '_$sSo16MKCoordinateSpana6MapKitE26_forceBridgeFromObjectiveC_6resultySo7NSValueC_ABSgztFZ', 
+                       '_$sSo16MKCoordinateSpana6MapKitE34_conditionallyBridgeFromObjectiveC_6resultSbSo7NSValueC_ABSgztFZ', 
+                       '_$sSo16MKCoordinateSpana6MapKitE36_unconditionallyBridgeFromObjectiveCyABSo7NSValueCSgFZ', 
+                       '_$sSo16MKCoordinateSpanas21_ObjectiveCBridgeable6MapKitMc', 
+                       '__swift_FORCE_LOAD_$_swiftMapKit' ]
+...

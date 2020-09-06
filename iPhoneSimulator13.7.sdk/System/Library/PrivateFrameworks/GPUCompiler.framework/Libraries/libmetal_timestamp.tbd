@@ -1,0 +1,10 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/libmetal_timestamp.dylib"
+current-version:       3902.67
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _getMetalTimeStamp ]
+...

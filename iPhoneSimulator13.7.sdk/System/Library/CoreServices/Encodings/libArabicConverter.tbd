@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 831CFBA1-8B4D-3198-A9B1-ECE91E76EC5E', 'x86_64: 3200A824-C136-3007-990D-334A86BBE13F' ]
+platform:        ios
+install-name:    '/System/Library/CoreServices/Encodings/libArabicConverter.dylib'
+current-version: 76
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ ___CFStringEncodingGetArabicConverterDefinition ]
+...

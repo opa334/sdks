@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/ContactsAssistantServices.framework/ContactsAssistantServices"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _NonEmptyOrNilArray, _NonEmptyOrNilString,
+                            _YESOrNilNumber ]
+    objc-classes:         [ _CNAssistantConversion, _CNAssistantID ]
+...

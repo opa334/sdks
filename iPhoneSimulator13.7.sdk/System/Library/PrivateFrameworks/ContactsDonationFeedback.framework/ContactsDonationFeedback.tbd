@@ -1,0 +1,22 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/ContactsDonationFeedback.framework/ContactsDonationFeedback"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _ContactsDonationFeedbackVersionNumber,
+                            _ContactsDonationFeedbackVersionString,
+                            _kCDFErrorDomain, _kCDFInsufficientValuesToHashError,
+                            _kCDFMissingIdentifierError,
+                            _kCDFUnhandledValueTypeError ]
+    objc-classes:         [ _CDFDonationFeedbackStore,
+                            _CNDFDonationStringCollector ]
+    objc-ivars:           [ _CDFDonationFeedbackStore._hashes,
+                            _CDFDonationFeedbackStore._kvs,
+                            _CDFDonationFeedbackStore._resetGeneration,
+                            _CDFDonationFeedbackStore._resetTimestamp,
+                            _CDFDonationFeedbackStore._userSalt,
+                            _CNDFDonationStringCollector._visitedStrings ]
+...

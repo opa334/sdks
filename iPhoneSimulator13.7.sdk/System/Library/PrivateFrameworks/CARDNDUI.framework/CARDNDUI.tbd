@@ -1,0 +1,15 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/CARDNDUI.framework/CARDNDUI"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _CARDNDUIVersionNumber, _CARDNDUIVersionString ]
+    objc-classes:         [ _CARDNDLearnMoreViewController,
+                            __CARLearnMoreViewController ]
+    objc-ivars:           [ __CARLearnMoreViewController._bottomMarginConstraint,
+                            __CARLearnMoreViewController._resourcePath,
+                            __CARLearnMoreViewController._textView ]
+...

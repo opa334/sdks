@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/PhoneNumbers.framework/PhoneNumbers"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    re-exports:           [ /System/Library/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers ]
+    symbols:              [ _PhoneNumbersVersionNumber,
+                            _PhoneNumbersVersionString, _pn_default_log ]
+...

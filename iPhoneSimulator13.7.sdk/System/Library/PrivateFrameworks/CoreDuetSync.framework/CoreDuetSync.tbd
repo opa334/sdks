@@ -1,0 +1,13 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/CoreDuetSync.framework/CoreDuetSync"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    objc-classes:         [ __DKSync3Coordinator, __DKSyncCoordinatorFactory ]
+    objc-ivars:           [ __DKSync3Coordinator._transportMDCSRapport,
+                            __DKSync3Coordinator._watchingDeviceTypes,
+                            __DKSync3Coordinator._watchingDevicesTransaction ]
+...

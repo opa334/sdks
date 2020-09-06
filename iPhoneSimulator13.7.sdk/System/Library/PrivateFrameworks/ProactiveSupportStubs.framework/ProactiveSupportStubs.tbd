@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/ProactiveSupportStubs.framework/ProactiveSupportStubs"
+current-version:       258.5
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _ProactiveSupportStubsVersionNumber,
+                            _ProactiveSupportStubsVersionString ]
+    objc-classes:         [ __PASDeviceStateStub ]
+...

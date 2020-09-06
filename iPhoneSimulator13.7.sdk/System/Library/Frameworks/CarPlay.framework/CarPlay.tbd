@@ -1,0 +1,25 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 00000000-0000-0000-0000-000000000000', 'x86_64: 4A22FFB2-9487-3899-8D9A-FFB772961B46' ]
+platform:        ios
+install-name:    '/System/Library/Frameworks/CarPlay.framework/CarPlay'
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _CPColorMeetsContrastRequirement, _CPContrastRatioForColors, 
+                       _CPContrastingColorForColor, _CPCurrentProcessHasMapsEntitlement, 
+                       _CPGuidanceStyleForColor, _CPLuminanceForColor, _CPMaximumListItemImageSize, 
+                       _CPSStringFromBOOL, _CPSanitizedBackgroundColor, _CPTemplateApplicationDashboardSceneSessionRoleApplication, 
+                       _CPTemplateApplicationSceneSessionRoleApplication, _kCPGridTemplateMaximumItems, 
+                       _kCPSMapsEntitlementKey ]
+    objc-classes:    [ CPActionSheetTemplate, CPAlertAction, CPAlertTemplate, CPBarButton, 
+                       CPDashboardButton, CPDashboardController, CPEndpointListenerWrapper, 
+                       CPGridButton, CPGridTemplate, CPImageSet, CPInterfaceController, 
+                       CPListItem, CPListSection, CPListTemplate, CPManeuver, CPMapButton, 
+                       CPMapTemplate, CPNavigationAlert, CPNavigationSession, CPRequestEndpointAction, 
+                       CPRouteChoice, CPSearchTemplate, CPSessionConfiguration, CPTemplate, 
+                       CPTemplateApplicationDashboardScene, CPTemplateApplicationScene, 
+                       CPTravelEstimates, CPTrip, CPTripPreviewTextConfiguration, 
+                       CPUIMutableTemplateApplicationSceneSettings, CPUITemplateApplicationSceneSettings, 
+                       CPUITemplateApplicationSceneSpecification, CPUITemplateDashboardSceneSpecification, 
+                       CPVoiceControlState, CPVoiceControlTemplate, CPWindow ]
+...

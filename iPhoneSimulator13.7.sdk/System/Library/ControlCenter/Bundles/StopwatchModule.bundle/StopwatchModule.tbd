@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/ControlCenter/Bundles/StopwatchModule.bundle/StopwatchModule"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _StopwatchModuleVersionNumber,
+                            _StopwatchModuleVersionString ]
+...

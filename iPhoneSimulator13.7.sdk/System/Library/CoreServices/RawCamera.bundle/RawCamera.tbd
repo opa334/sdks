@@ -1,0 +1,13 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/CoreServices/RawCamera.bundle/RawCamera"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _CreateListOfSupportedCamerasAndVersions,
+                            _GetRawPluginsInfo, _RCCopyMethodsArrayForIdentifier,
+                            _RCCreateCIImageFromBufferAndProperties,
+                            _RawCameraTP, _ReadMakerNoteProps ]
+...

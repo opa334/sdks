@@ -1,0 +1,21 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/IMTranscoderAgent.framework/IMTranscoderAgent"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _IMTranscodeErrorDomain, __IMTranscoderLinkFile ]
+    objc-classes:         [ _IMEmbeddedHardwareJPEGTranscoder,
+                            _IMFallbackTranscoder,
+                            _IMFallbackTranscoder_AudioMessage, _IMTranscoder,
+                            _IMTranscoderImageSizeEstimator,
+                            _IMTranscoderTelemetry, _IMTranscoder_AV,
+                            _IMTranscoder_Image, _IMTranscodingAgentController ]
+    objc-ivars:           [ _IMTranscodingAgentController._fallbackTranscoders,
+                            _IMTranscodingAgentController._previewGenerationQueue,
+                            _IMTranscodingAgentController._queue,
+                            _IMTranscodingAgentController._textValidationQueue,
+                            _IMTranscodingAgentController._transcoders ]
+...

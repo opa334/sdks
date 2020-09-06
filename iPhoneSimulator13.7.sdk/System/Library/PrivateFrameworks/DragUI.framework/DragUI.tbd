@@ -1,0 +1,7 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/DragUI.framework/DragUI"
+current-version:       1
+compatibility-version: 1
+...

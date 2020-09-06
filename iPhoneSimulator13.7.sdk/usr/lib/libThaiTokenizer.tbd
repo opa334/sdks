@@ -1,0 +1,21 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 14809522-F179-3E8B-9300-859EA44A0F85', 'x86_64: BD7B424B-60FD-30AC-8C1F-72954D7DE9A9' ]
+platform:        ios
+install-name:    '/usr/lib/libThaiTokenizer.dylib'
+exports:         
+  - archs:           [ i386 ]
+    symbols:         [ _CreateTransitionArrayFromTrie, _GetChunk, _GetTokenizedSegmentedPoints, 
+                       _GetTokenizedStrings, _MAXCHUNKSIZE, _MAXUNKCHOICE, _MAXWORDCHOICE, 
+                       _MAXWORDSIZE, _ReleaseTransitionTable, _SINGLECHARUNKSCORE, 
+                       _Search, _SetChunk, _StackCreate, _StackGetValue, _StackIsEmpty, 
+                       _StackIsFull, _StackPop, _StackPush, _StackRelease, _TOKENIZEDONLYTHAI, 
+                       _UNKSCORE, _getChunkType, _getTokenType, _getUnkProb, _isAcronym, 
+                       _isNumber, _isPunct, _isPunctAll, _isThai, _isThaiBreakChar, 
+                       _isThaiConsonant, _isThaiEndingChar, _isThaiLeadingChar, _isThaiLeadingCharAtIndex, 
+                       _isThaiPunct, _isThaiVowel, _isWhiteSpace, _mergeAcronym ]
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _ThaiTokenizerAdvanceToNextToken, _ThaiTokenizerCreate, _ThaiTokenizerDestroy, 
+                       _ThaiTokenizerGetCurrentTokenRange, _ThaiTokenizerGoToTokenAtIndex, 
+                       _ThaiTokenizerSetString, _ThaiTokenizerSetStringWithRange ]
+...

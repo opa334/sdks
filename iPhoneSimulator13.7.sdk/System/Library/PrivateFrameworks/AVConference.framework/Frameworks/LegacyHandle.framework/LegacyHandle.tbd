@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/LegacyHandle.framework/LegacyHandle"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _CheckInHandleDebug, _CheckOutHandleDebug,
+                            _CloseAllHandles, _CreateHandle, _FindHandle,
+                            _GetNumHandles ]
+...

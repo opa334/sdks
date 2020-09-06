@@ -1,0 +1,21 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/ProactiveExperimentsInternals.framework/ProactiveExperimentsInternals"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _PREServerSideErrorDomain,
+                            _PREServerSideErrorInfoKey,
+                            _ProactiveExperimentsInternalsVersionNumber,
+                            _ProactiveExperimentsInternalsVersionString,
+                            _pre_sv_quicktype_handle, _pre_sv_responses_handle,
+                            _pre_sv_xpc_handle ]
+    objc-classes:         [ _PREResponsesServerDelegate,
+                            _PREResponsesServerRequestHandler, _PREXPCServer,
+                            _PREXPCServerHelper ]
+    objc-ivars:           [ _PREResponsesServerRequestHandler._bundleIdResolver,
+                            _PREResponsesServerRequestHandler._clientProcessName,
+                            _PREResponsesServerRequestHandler._clientProxy ]
+...

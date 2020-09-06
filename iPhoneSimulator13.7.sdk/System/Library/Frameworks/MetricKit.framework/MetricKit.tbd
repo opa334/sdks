@@ -1,0 +1,16 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 00000000-0000-0000-0000-000000000000', 'x86_64: 0D09C8F9-F3D0-3F0C-92CC-9D6D9A392AD4' ]
+platform:        ios
+install-name:    '/System/Library/Frameworks/MetricKit.framework/MetricKit'
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _MetricKitVersionNumber, _MetricKitVersionString ]
+    objc-classes:    [ MXAppLaunchMetric, MXAppResponsivenessMetric, MXAppRunTimeMetric, 
+                       MXAverage, MXCPUMetric, MXCellularConditionMetric, MXDiskIOMetric, 
+                       MXDisplayMetric, MXFramerateMetric, MXGPUMetric, MXHistogram, 
+                       MXHistogramBucket, MXLocationActivityMetric, MXMemoryMetric, 
+                       MXMetaData, MXMetric, MXMetricManager, MXMetricPayload, MXNetworkTransferMetric, 
+                       MXResourceExceptionMetric, MXSignpostIntervalData, MXSignpostMetric, 
+                       MXUnitAveragePixelLuminance, MXUnitSignalBars ]
+...

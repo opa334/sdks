@@ -1,0 +1,23 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/SharedUtils"
+current-version:       693.140.3
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _LAErrorDomain, _LAErrorSubcodeKey,
+                            _LALogCategoryForOptions, _LALogCategoryForPolicy,
+                            _LALogForCategory, _LALogForPolicy,
+                            _LALogSetProcessCategory, __isMultiUser ]
+    objc-classes:         [ _LACachedExternalizedContext, _LAErrorHelper,
+                            _LAInternalProtocols, _LAParamChecker,
+                            _LAPasscodeHelper, _LASecureData, _LAUtils ]
+    objc-ivars:           [ _LACachedExternalizedContext._cachedExternalizedContext,
+                            _LACachedExternalizedContext._externalizationDelegate,
+                            _LACachedExternalizedContext._externalizationObserver,
+                            _LAPasscodeHelper._backoffEndTimeDictionary,
+                            _LAPasscodeHelper._failedAttemptsDictionary,
+                            _LASecureData._allocatedLength, _LASecureData._bytes,
+                            _LASecureData._bytesLength ]
+...

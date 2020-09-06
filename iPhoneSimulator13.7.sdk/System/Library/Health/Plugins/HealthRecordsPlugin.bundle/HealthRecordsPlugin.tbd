@@ -1,0 +1,24 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/Health/Plugins/HealthRecordsPlugin.bundle/HealthRecordsPlugin"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _HDClinicalAccountFetchBlockInMinutesUserDefaultsKey,
+                            _HDClinicalAccountFullFetchBlockInMinutesUserDefaultsKey,
+                            _HDClinicalAnalyticsContentAnalyticsLimitCount,
+                            _HDClinicalOptInStudyServerPort,
+                            _HDClinicalOptInStudyUnitTestServerPort,
+                            _HDFHIREndpointSchemaVariableClientID,
+                            _HDFHIREndpointSchemaVariableClientSecret,
+                            _HDFHIREndpointSchemaVariableCode,
+                            _HDFHIREndpointSchemaVariableGreaterEqualLastFetchDate,
+                            _HDFHIREndpointSchemaVariableGreaterEqualLastFetchDateTime,
+                            _HDFHIREndpointSchemaVariablePatient,
+                            _HDFHIREndpointSchemaVariableRefreshToken,
+                            _HDFHIREndpointSchemaVariableState,
+                            _HDFHIRHTTPMethodGET, _HDFHIRHTTPMethodPOST,
+                            _HDLogNameForFHIRQueryMode ]
+...

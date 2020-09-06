@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/SharingXPCServices.framework/SharingXPCServices"
+current-version:       1526.37
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _SharingXPCServicesVersionNumber,
+                            _SharingXPCServicesVersionString ]
+...

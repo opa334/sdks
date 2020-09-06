@@ -1,0 +1,15 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/Frameworks/OpenGLES.framework/libGLVMPlugin.dylib"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _cvmsPluginElementBuild,
+                            _cvmsPluginServiceInitialize,
+                            _cvmsPluginServiceTerminate,
+                            _oglCodeGenServiceGenerateIR,
+                            _oglCodeGenServiceInitialize,
+                            _oglCodeGenServiceTerminate ]
+...

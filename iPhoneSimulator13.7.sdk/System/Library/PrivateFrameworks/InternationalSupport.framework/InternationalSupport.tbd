@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/InternationalSupport.framework/InternationalSupport"
+current-version:       45.4
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _InternationalSupportVersionNumber,
+                            _InternationalSupportVersionString ]
+    objc-classes:         [ _ISUtilities ]
+...

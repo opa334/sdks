@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/Assistant/Plugins/LocaleSettings.assistantBundle/LocaleSettings"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _SiriSyncSystemSettingIdentifier,
+                            _SiriSyncSystemSettingValidity ]
+    objc-classes:         [ _SiriCalendarSyncSystemSetting ]
+...

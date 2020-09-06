@@ -1,0 +1,23 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: EA0CD531-C0F0-3E84-BF9D-65D8A4A3F96E', 'x86_64: 0F515B0B-5D4E-37B6-A913-2883F740368E' ]
+platform:        ios
+install-name:    '/usr/lib/swift/libswiftPhotos.dylib'
+current-version: 0
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ '$ld$install_name$os10.0$@rpath/libswiftPhotos.dylib', '$ld$install_name$os10.1$@rpath/libswiftPhotos.dylib', 
+                       '$ld$install_name$os10.2$@rpath/libswiftPhotos.dylib', '$ld$install_name$os10.3$@rpath/libswiftPhotos.dylib', 
+                       '$ld$install_name$os11.0$@rpath/libswiftPhotos.dylib', '$ld$install_name$os11.1$@rpath/libswiftPhotos.dylib', 
+                       '$ld$install_name$os11.2$@rpath/libswiftPhotos.dylib', '$ld$install_name$os11.3$@rpath/libswiftPhotos.dylib', 
+                       '$ld$install_name$os11.4$@rpath/libswiftPhotos.dylib', '$ld$install_name$os12.0$@rpath/libswiftPhotos.dylib', 
+                       '$ld$install_name$os12.1$@rpath/libswiftPhotos.dylib', '$ld$install_name$os7.0$@rpath/libswiftPhotos.dylib', 
+                       '$ld$install_name$os7.1$@rpath/libswiftPhotos.dylib', '$ld$install_name$os8.0$@rpath/libswiftPhotos.dylib', 
+                       '$ld$install_name$os8.1$@rpath/libswiftPhotos.dylib', '$ld$install_name$os8.2$@rpath/libswiftPhotos.dylib', 
+                       '$ld$install_name$os8.3$@rpath/libswiftPhotos.dylib', '$ld$install_name$os8.4$@rpath/libswiftPhotos.dylib', 
+                       '$ld$install_name$os9.0$@rpath/libswiftPhotos.dylib', '$ld$install_name$os9.1$@rpath/libswiftPhotos.dylib', 
+                       '$ld$install_name$os9.2$@rpath/libswiftPhotos.dylib', '$ld$install_name$os9.3$@rpath/libswiftPhotos.dylib', 
+                       '_$sSo8PHChangeC6PhotosE13changeDetails3forSo014PHObjectChangeD0CyxGSgx_tSo0F0CRbzlF', 
+                       '_$sSo8PHChangeC6PhotosE13changeDetails3forSo019PHFetchResultChangeD0CyxGSgSo0fG0CyxG_tSo8PHObjectCRbzlF', 
+                       '__swift_FORCE_LOAD_$_swiftPhotos' ]
+...

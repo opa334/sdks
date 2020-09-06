@@ -1,0 +1,13 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/AppStoreUI.framework/AppStoreUI"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _ASAppStoreUIBundle ]
+    objc-classes:         [ _ASClientController, _ASPurchaseBatch,
+                            _ASViewControllerFactory ]
+    objc-ivars:           [ _ASClientController._shouldExitAfterPurchases ]
+...

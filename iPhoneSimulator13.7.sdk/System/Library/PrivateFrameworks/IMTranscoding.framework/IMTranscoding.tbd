@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/IMTranscoding.framework/IMTranscoding"
+current-version:       800
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _IMTranscodeContextResponseDuration,
+                            _IMTranscodeErrorDomain ]
+    objc-classes:         [ _IMTranscodeController ]
+...

@@ -1,0 +1,19 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "@rpath/MobileReplayerSupport.framework/MobileReplayerSupport"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    objc-classes:         [ _MRAppDelegate, _MRReplayController ]
+    objc-ivars:           [ _MRAppDelegate._interposeDylib,
+                            _MRAppDelegate._shouldCreateViewController,
+                            _MRReplayController._backgroundImageViewController,
+                            _MRReplayController._delegate,
+                            _MRReplayController._shaderProfiler,
+                            _MRReplayController.experiments,
+                            _MRReplayController.playbackEngine,
+                            _MRReplayController.queue,
+                            _MRReplayController.replayControllerSupport ]
+...

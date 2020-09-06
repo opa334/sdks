@@ -1,0 +1,28 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/CloudPhotoServices.framework/CloudPhotoServices"
+current-version:       3662.0.110
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _CloudPhotoServicesOptionBakeInOrientationKey,
+                            _CloudPhotoServicesOptionColorOutputKey,
+                            _CloudPhotoServicesOptionExportPresetKey,
+                            _CloudPhotoServicesOptionIsPassthroughConversionKey,
+                            _CloudPhotoServicesOptionLivePhotoPairingIdentifierKey,
+                            _CloudPhotoServicesOptionMaximumPixelCountKey,
+                            _CloudPhotoServicesOptionOriginatingSignatureKey,
+                            _CloudPhotoServicesOptionOutputFileTypeKey,
+                            _CloudPhotoServicesOptionRenderOriginatingSignatureKey,
+                            _CloudPhotoServicesOptionTargetFileSizeKey,
+                            _CloudPhotoServicesRetryCount,
+                            _CloudPhotoServicesRetryDelay,
+                            _CloudPhotoServicesVersionNumber,
+                            _CloudPhotoServicesVersionString,
+                            _CloudPhotoServicesVideoConversionPowerEfficiencyKey,
+                            _CloudPhotoServicesVideoConversionPowerEfficiencyMinimumDurationKey,
+                            _CloudPhotoServicesVideoConversionPowerEfficiencyOverrideUserDefaultsKey,
+                            __logDropDerivatives ]
+    objc-classes:         [ _CloudPhotoServices, _CloudPhotoServicesUtilities ]
+...

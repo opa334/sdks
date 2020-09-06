@@ -1,0 +1,28 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/LinguisticData.framework/LinguisticData"
+current-version:       353.18
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _LDCreateMobileAssetType,
+                            _LDCreateSystemLexiconCompatibilityVersion,
+                            _LDEnumerateAssetDataItems,
+                            _kLDAssetTypeCharacterLanguageModel,
+                            _kLDAssetTypeContinuousPathModel,
+                            _kLDAssetTypeDeltaLexicon,
+                            _kLDAssetTypeEventDetectionModel,
+                            _kLDAssetTypeIntentDetectionModel,
+                            _kLDAssetTypeLanguageIdentificationModel,
+                            _kLDAssetTypeLanguageModel, _kLDAssetTypeLexicon,
+                            _kLDAssetTypeMorphologicalAnalyzer,
+                            _kLDAssetTypeMultilingualModel,
+                            _kLDAssetTypeNaturalLanguageSearchModel,
+                            _kLDAssetTypePOSTaggingModel,
+                            _kLDAssetTypePolarityModel,
+                            _kLDAssetTypeProactiveGrammar,
+                            _kLDAssetTypeSpellcheckerData,
+                            _kLDAssetTypeTokenizationModel,
+                            _kLDAssetTypeTransliterationModel ]
+...

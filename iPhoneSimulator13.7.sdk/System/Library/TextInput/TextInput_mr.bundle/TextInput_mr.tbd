@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/TextInput/TextInput_mr.bundle/TextInput_mr"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ __ZNK17TIInputManager_mr30create_custom_candidate_filterEN2KB10LookupTypeE,
+                            __ZTV17TIInputManager_mr ]
+    objc-classes:         [ _TIKeyboardInputManager_mr ]
+...

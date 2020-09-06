@@ -1,0 +1,33 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: F47997EE-7B9D-3BB3-9E62-CB4D8BC99878', 'x86_64: 93AB38CD-352E-347D-9BEF-105EBAE39531' ]
+platform:        ios
+install-name:    '/usr/lib/swift/libswiftAssetsLibrary.dylib'
+current-version: 0
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ '$ld$install_name$os10.0$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os10.1$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os10.2$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os10.3$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os11.0$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os11.1$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os11.2$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os11.3$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os11.4$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os12.0$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os12.1$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os7.0$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os7.1$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os8.0$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os8.1$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os8.2$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os8.3$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os8.4$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os9.0$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os9.1$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os9.2$@rpath/libswiftAssetsLibrary.dylib', 
+                       '$ld$install_name$os9.3$@rpath/libswiftAssetsLibrary.dylib', 
+                       '_$sSo15ALAssetsLibraryC06AssetsB0E24enumerateGroupsWithTypes_10usingBlock07failureI0ys6UInt32V_ySo0A5GroupCSg_Spy10ObjectiveC8ObjCBoolVGSgtcSgys5Error_pSgcSgtF', 
+                       '__swift_FORCE_LOAD_$_swiftAssetsLibrary' ]
+...

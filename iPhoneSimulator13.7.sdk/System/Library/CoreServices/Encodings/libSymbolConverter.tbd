@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 220BCB9D-588F-30F0-83A4-4A9AD2C4AEFC', 'x86_64: F9C5059C-F5F9-320F-A233-D516CD5EC77F' ]
+platform:        ios
+install-name:    '/System/Library/CoreServices/Encodings/libSymbolConverter.dylib'
+current-version: 76
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ ___CFStringEncodingGetSymbolConverterDefinition ]
+...

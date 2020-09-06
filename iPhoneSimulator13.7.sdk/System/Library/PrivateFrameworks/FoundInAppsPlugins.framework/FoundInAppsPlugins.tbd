@@ -1,0 +1,19 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/FoundInAppsPlugins.framework/FoundInAppsPlugins"
+current-version:       1052.34
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _FoundInAppsPluginsVersionNumber,
+                            _FoundInAppsPluginsVersionString ]
+    objc-classes:         [ _FIAPHistoricalDataRequest, _FIAPResult ]
+    objc-ivars:           [ _FIAPHistoricalDataRequest._endDate,
+                            _FIAPHistoricalDataRequest._personHandle,
+                            _FIAPHistoricalDataRequest._pluginIdentifier,
+                            _FIAPHistoricalDataRequest._requestId,
+                            _FIAPHistoricalDataRequest._startDate,
+                            _FIAPResult._error,
+                            _FIAPResult._historicalDataRequests ]
+...

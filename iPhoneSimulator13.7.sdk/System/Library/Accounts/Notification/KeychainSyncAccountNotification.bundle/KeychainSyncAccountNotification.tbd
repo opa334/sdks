@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/Accounts/Notification/KeychainSyncAccountNotification.bundle/KeychainSyncAccountNotification"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _KeychainSyncAccountNotificationVersionNumber,
+                            _KeychainSyncAccountNotificationVersionString ]
+    objc-classes:         [ _KeychainSyncAccountNotification ]
+...

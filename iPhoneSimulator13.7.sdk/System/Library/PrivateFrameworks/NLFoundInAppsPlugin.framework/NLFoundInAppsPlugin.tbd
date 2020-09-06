@@ -1,0 +1,14 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/NLFoundInAppsPlugin.framework/NLFoundInAppsPlugin"
+current-version:       202
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    objc-classes:         [ _NLFIAPluginDelegate, _NLFoundInAppsPlugin ]
+    objc-ivars:           [ _NLFIAPluginDelegate._recordStore,
+                            _NLFoundInAppsPlugin._FIAPBundle,
+                            _NLFoundInAppsPlugin._FIAPResult,
+                            _NLFoundInAppsPlugin._delegates ]
+...

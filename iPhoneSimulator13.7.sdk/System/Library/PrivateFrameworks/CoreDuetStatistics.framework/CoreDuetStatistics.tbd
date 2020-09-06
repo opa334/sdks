@@ -1,0 +1,19 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/CoreDuetStatistics.framework/CoreDuetStatistics"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    objc-classes:         [ _CDSBasisObject, _CDSEngine ]
+    objc-ivars:           [ _CDSBasisObject._attributeId,
+                            _CDSBasisObject._basisDoubleValue,
+                            _CDSBasisObject._basisUint64Value,
+                            _CDSBasisObject._basisValueString,
+                            _CDSBasisObject._creationDate,
+                            _CDSBasisObject._duration,
+                            _CDSBasisObject._fallingEdge,
+                            _CDSBasisObject._localTime,
+                            _CDSBasisObject._risingEdge, _CDSBasisObject._type ]
+...

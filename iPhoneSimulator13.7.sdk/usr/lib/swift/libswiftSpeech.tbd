@@ -1,0 +1,12 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 00000000-0000-0000-0000-000000000000', 'x86_64: DB4E5A08-27E6-3A5B-A9F0-BB01EC181339' ]
+platform:        ios
+install-name:    '/usr/lib/swift/libswiftSpeech.dylib'
+current-version: 0
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ '_$sSo17SFAcousticFeatureC6SpeechE08acousticB13ValuePerFrameSaySdGvg', 
+                       '_$sSo17SFAcousticFeatureC6SpeechE08acousticB13ValuePerFrameSaySdGvpMV', 
+                       '__swift_FORCE_LOAD_$_swiftSpeech' ]
+...

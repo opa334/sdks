@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 00000000-0000-0000-0000-000000000000', 'x86_64: 6C65C46A-6EDC-39AD-9A57-111262C6B683' ]
+platform:        ios
+install-name:    '/usr/lib/libxpc_datastores.dylib'
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _xpc_datastore_copy_state, _xpc_datastore_publisher_create, 
+                       _xpc_datastore_publisher_invalidate_state, _xpc_datastore_subscriber_create ]
+...

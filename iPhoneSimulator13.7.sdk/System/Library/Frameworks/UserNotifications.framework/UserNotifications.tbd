@@ -1,0 +1,48 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: CE38C631-B119-3BC5-AF68-C1739DA40E68', 'x86_64: 071EEA6C-080C-381F-841C-C6ED90B28D46' ]
+platform:        ios
+install-name:    '/System/Library/Frameworks/UserNotifications.framework/UserNotifications'
+exports:         
+  - archs:           [ i386 ]
+    objc-classes:    [ UNRemoteNotificationRegistrar ]
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _UNDoubleIsZero, _UNEqualBools, _UNEqualDoubles, _UNEqualFloats, 
+                       _UNEqualIntegers, _UNEqualObjects, _UNEqualStrings, _UNErrorDomain, 
+                       _UNFloatIsZero, _UNFormatLocalizedString, _UNFormatLocalizedStringInBundleWithDefaultValue, 
+                       _UNIsInternalInstall, _UNLegacyNotificationTriggerInfiniteRepeatCount, 
+                       _UNLogAppLaunching, _UNLogAttachmentsRepository, _UNLogAttachmentsService, 
+                       _UNLogConnections, _UNLogContentProtection, _UNLogDataProvider, 
+                       _UNLogDataProviderFactory, _UNLogDataStore, _UNLogLocalNotifications, 
+                       _UNLogMigration, _UNLogRemoteNotifications, _UNLogServiceExtension, 
+                       _UNLogSettings, _UNNotificationActionTextInputButtonTitleKey, 
+                       _UNNotificationActionTextInputPlaceholderKey, _UNNotificationAttachmentFamilyFromTypeIdentifier, 
+                       _UNNotificationAttachmentFamilyMaximumSize, _UNNotificationAttachmentFamilyToString, 
+                       _UNNotificationAttachmentOptionsHiddenFromDefaultExpandedViewKey, 
+                       _UNNotificationAttachmentOptionsThumbnailClippingRectKey, 
+                       _UNNotificationAttachmentOptionsThumbnailHiddenKey, _UNNotificationAttachmentOptionsThumbnailTimeKey, 
+                       _UNNotificationAttachmentOptionsTypeHintKey, _UNNotificationAttachmentOptionsUnitRect, 
+                       _UNNotificationDefaultActionIdentifier, _UNNotificationDismissActionIdentifier, 
+                       _UNNotificationGroupingSettingString, _UNNotificationSettingString, 
+                       _UNNotificationSilenceActionIdentifier, _UNRegisterUserNotificationsLogging, 
+                       _UNSafeCast, _UNSafeCastAny, _UNSafeConforms, _UNShowPreviewsSettingString, 
+                       _UNSimilarSets, _UNSimilarStrings, _UNUserNotificationServiceName, 
+                       _kUNBulletinContextArchivedUserNotificationKey ]
+    objc-classes:    [ UNAudioNotificationAttachmentOptions, UNCalendarNotificationTrigger, 
+                       UNImageNotificationAttachmentOptions, UNLegacyNotificationTrigger, 
+                       UNLocalizedString, UNLocalizedStringFactory, UNLocationNotificationTrigger, 
+                       UNMovieNotificationAttachmentOptions, UNMutableNotificationCategory, 
+                       UNMutableNotificationContent, UNMutableNotificationSettings, 
+                       UNMutableNotificationSound, UNNotification, UNNotificationAction, 
+                       UNNotificationAttachment, UNNotificationAttachmentOptions, 
+                       UNNotificationCategory, UNNotificationContent, UNNotificationIcon, 
+                       UNNotificationRequest, UNNotificationResponse, UNNotificationServiceExtension, 
+                       UNNotificationSettings, UNNotificationSound, UNNotificationTopic, 
+                       UNNotificationTopicRequest, UNNotificationTrigger, UNPushNotificationRequestBuilder, 
+                       UNPushNotificationTrigger, UNSecurityScopedURL, UNTextInputNotificationAction, 
+                       UNTextInputNotificationResponse, UNTimeIntervalNotificationTrigger, 
+                       UNUserNotificationCenter, UNUserNotificationCenterDelegateConnectionListener, 
+                       UNUserNotificationCenterDelegateService, UNUserNotificationService, 
+                       _UNNotificationServiceExtensionContext, _UNNotificationServiceExtensionHostContext, 
+                       _UNNotificationServiceExtensionRemoteContext ]
+...

@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DAIMAPNotes.framework/DAIMAPNotes"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    objc-classes:         [ _DAIMAPNotesAccount ]
+    objc-ivars:           [ _DAIMAPNotesAccount._imapNotesAccountVersion ]
+...

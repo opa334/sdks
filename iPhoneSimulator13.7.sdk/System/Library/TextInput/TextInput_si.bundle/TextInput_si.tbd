@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/TextInput/TextInput_si.bundle/TextInput_si"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    objc-classes:         [ _TIKeyboardInputManager_si ]
+    objc-ivars:           [ _TIKeyboardInputManager_si._lastTypedChar ]
+...

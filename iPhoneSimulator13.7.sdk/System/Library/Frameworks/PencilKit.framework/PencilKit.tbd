@@ -1,0 +1,38 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 00000000-0000-0000-0000-000000000000', 'x86_64: 797E7B99-FCA8-33DC-B339-B067294A84D8' ]
+platform:        ios
+install-name:    '/System/Library/Frameworks/PencilKit.framework/PencilKit'
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _PKAppleDrawingTypeIdentifier, _PKAppleStrokeSelectionTypeIdentifier, 
+                       _PKAttachmentViewDefaultDrawingWidth, _PKClipperScaling, _PKDidSelectStrokesNotification, 
+                       _PKHandwritingFeedbackActivityType, _PKInkBlueComponentProperty, 
+                       _PKInkColorProperty, _PKInkGreenComponentProperty, _PKInkIdentifierCharcoal, 
+                       _PKInkIdentifierEraser, _PKInkIdentifierFountainPen, _PKInkIdentifierLasso, 
+                       _PKInkIdentifierMarker, _PKInkIdentifierMicronPen, _PKInkIdentifierObjectEraser, 
+                       _PKInkIdentifierPen, _PKInkIdentifierPencil, _PKInkOpacityProperty, 
+                       _PKInkRedComponentProperty, _PKInkTypeMarker, _PKInkTypePen, 
+                       _PKInkTypePencil, _PKInkVariantDefault, _PKInkVariantThick, 
+                       _PKInkWeightProperty, _PKInlineInkPickerAnimationDuration, 
+                       _PKInlineInkPickerPreferencesSuite, _PKInlineInkPickerStackViewHeight, 
+                       _PKInputPointZero, _PKTiledViewDrawingMinimumHeight, _PKTiledViewDrawingWidth, 
+                       _PKToolIdentifierRuler, __PKStrokePointZero, _kUTTypeAppleDrawing, 
+                       _kUTTypeAppleStrokeSelection ]
+    objc-classes:    [ PKAttachmentView, PKCanvasView, PKColorPicker, PKDrawing, 
+                       PKDrawingGestureRecognizer, PKEraserTool, PKFatStroke, PKHandwritingDebugUtility, 
+                       PKHandwritingFeedbackActivity, PKImageCompare, PKImageRenderer, 
+                       PKIndexableContent, PKInk, PKInkBehavior, PKInkColorButton, 
+                       PKInkFeatheringDescriptor, PKInkFunction, PKInkModifier, PKInkParticleDescriptor, 
+                       PKInkProperties, PKInkRenderingDescriptor, PKInkSmoothingDescriptor, 
+                       PKInkToolMinimizedImageFactory, PKInkingTool, PKInlineColorPicker, 
+                       PKInlineInkPicker, PKLRUCache, PKLassoTool, PKLegacyDrawingRegressionTester, 
+                       PKLinedPaper, PKMetalUtility, PKMutableStroke, PKPaintAreaView, 
+                       PKPaletteHostView, PKPaletteView, PKPaletteViewInteraction, 
+                       PKRecognitionDataCollectionViewController, PKReplicaManager, 
+                       PKSearchQueryItem, PKSelectionController, PKSpaceInsertionController, 
+                       PKStroke, PKStrokeDelta, PKStrokeProvider, PKStrokeProviderSlice, 
+                       PKStrokeSelection, PKTiledCanvasView, PKTiledTextView, PKTiledView, 
+                       PKTitleQuery, PKTitleQueryItem, PKTool, PKToolPicker, PKUndoCommand, 
+                       PKVisualizationManager, _PKFlatInkColorButton, _PKInkColorButton ]
+...

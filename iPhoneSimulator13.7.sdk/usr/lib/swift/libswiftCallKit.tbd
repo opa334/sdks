@@ -1,0 +1,25 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 756733B1-5F8D-3485-A944-B6E3904301AA', 'x86_64: 5F49E422-4078-3C8D-8713-2297C97D5CC6' ]
+platform:        ios
+install-name:    '/usr/lib/swift/libswiftCallKit.dylib'
+current-version: 0
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ '$ld$install_name$os10.0$@rpath/libswiftCallKit.dylib', '$ld$install_name$os10.1$@rpath/libswiftCallKit.dylib', 
+                       '$ld$install_name$os10.2$@rpath/libswiftCallKit.dylib', '$ld$install_name$os10.3$@rpath/libswiftCallKit.dylib', 
+                       '$ld$install_name$os11.0$@rpath/libswiftCallKit.dylib', '$ld$install_name$os11.1$@rpath/libswiftCallKit.dylib', 
+                       '$ld$install_name$os11.2$@rpath/libswiftCallKit.dylib', '$ld$install_name$os11.3$@rpath/libswiftCallKit.dylib', 
+                       '$ld$install_name$os11.4$@rpath/libswiftCallKit.dylib', '$ld$install_name$os12.0$@rpath/libswiftCallKit.dylib', 
+                       '$ld$install_name$os12.1$@rpath/libswiftCallKit.dylib', '$ld$install_name$os7.0$@rpath/libswiftCallKit.dylib', 
+                       '$ld$install_name$os7.1$@rpath/libswiftCallKit.dylib', '$ld$install_name$os8.0$@rpath/libswiftCallKit.dylib', 
+                       '$ld$install_name$os8.1$@rpath/libswiftCallKit.dylib', '$ld$install_name$os8.2$@rpath/libswiftCallKit.dylib', 
+                       '$ld$install_name$os8.3$@rpath/libswiftCallKit.dylib', '$ld$install_name$os8.4$@rpath/libswiftCallKit.dylib', 
+                       '$ld$install_name$os9.0$@rpath/libswiftCallKit.dylib', '$ld$install_name$os9.1$@rpath/libswiftCallKit.dylib', 
+                       '$ld$install_name$os9.2$@rpath/libswiftCallKit.dylib', '$ld$install_name$os9.3$@rpath/libswiftCallKit.dylib', 
+                       '_$sSo23CXProviderConfigurationC7CallKitE20supportedHandleTypesShySo12CXHandleTypeVGvM', 
+                       '_$sSo23CXProviderConfigurationC7CallKitE20supportedHandleTypesShySo12CXHandleTypeVGvg', 
+                       '_$sSo23CXProviderConfigurationC7CallKitE20supportedHandleTypesShySo12CXHandleTypeVGvpMV', 
+                       '_$sSo23CXProviderConfigurationC7CallKitE20supportedHandleTypesShySo12CXHandleTypeVGvs', 
+                       '__swift_FORCE_LOAD_$_swiftCallKit' ]
+...

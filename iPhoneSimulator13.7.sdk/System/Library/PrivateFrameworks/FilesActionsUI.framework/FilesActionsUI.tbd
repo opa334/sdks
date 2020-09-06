@@ -1,0 +1,22 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/FilesActionsUI.framework/FilesActionsUI"
+current-version:       29
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _FAUICreatePDFFromDocumentURLs,
+                            _FAUICreateTempFileURLInTemporaryDirectory,
+                            _FAUICreateTemporaryFolderURLAppropriateForURL,
+                            _FAUIInitLogging, _FAUIRotateImage, _FAUIRotateImages,
+                            _FAUIRotateMovies, _FilesActionsUIVersionNumber,
+                            _FilesActionsUIVersionString,
+                            __AppendDocumentToDocument, __AppendImageToDocument,
+                            __CleanupTemporaryImage,
+                            __CreateTemporaryImageFileURL,
+                            __CreateTemporaryPDFFileURL, __DownsampleImage,
+                            __FAUIRotateMovie, __FAUIRotationDirectionToRadians,
+                            __FormattedDate, __NewDocumentFileName,
+                            __SortedFileURLsUsingStandardSort, _fauiLogHandle ]
+...

@@ -1,0 +1,13 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/ControlCenter/Bundles/OrientationLockModule.bundle/OrientationLockModule"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _OrientationLockModuleVersionNumber,
+                            _OrientationLockModuleVersionString ]
+    objc-classes:         [ _CCUIOrientationLockModule ]
+    objc-ivars:           [ _CCUIOrientationLockModule._systemAgent ]
+...

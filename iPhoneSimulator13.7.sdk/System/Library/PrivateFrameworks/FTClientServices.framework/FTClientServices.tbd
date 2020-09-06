@@ -1,0 +1,17 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/FTClientServices.framework/FTClientServices"
+current-version:       800
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _FTCServiceAvailabilityAvailabilityKey,
+                            _FTCServiceAvailabilityDidChangeNotification,
+                            _FTCServiceAvailabilityServiceTypeKey,
+                            _FTCServiceNameCalling, _FTCServiceNameFaceTime,
+                            _FTCServiceNameForServiceType, _FTCServiceNameMadrid,
+                            _FTCServiceNameiMessage,
+                            _FTCServiceTypeForServiceName ]
+    objc-classes:         [ _FTCServiceAvailabilityCenter ]
+...

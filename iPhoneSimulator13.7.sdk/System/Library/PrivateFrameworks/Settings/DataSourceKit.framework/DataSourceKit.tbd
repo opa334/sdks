@@ -1,0 +1,14 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/Settings/DataSourceKit.framework/DataSourceKit"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    objc-classes:         [ _DSKDataSource, __DSKDataSourceSection ]
+    objc-ivars:           [ _DSKDataSource.__sections,
+                            _DSKDataSource._updateDelegate,
+                            __DSKDataSourceSection.__items,
+                            __DSKDataSourceSection._sectionItem ]
+...

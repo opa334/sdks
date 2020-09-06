@@ -1,0 +1,17 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/EmailAddressing.framework/EmailAddressing"
+current-version:       3608.120
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _EAAddressComment ]
+    objc-classes:         [ _EAEmailAddressGenerator, _EAEmailAddressLists,
+                            _EAEmailAddressParser, _EAEmailAddressSet,
+                            __EAEmailAddress, __EAEmailAddressSetEnumerator ]
+    objc-ivars:           [ _EAEmailAddressSet._internalSet,
+                            __EAEmailAddress._emailAddress,
+                            __EAEmailAddressSetEnumerator._set,
+                            __EAEmailAddressSetEnumerator._state ]
+...

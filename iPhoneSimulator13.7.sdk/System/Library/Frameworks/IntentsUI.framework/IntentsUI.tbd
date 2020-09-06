@@ -1,0 +1,19 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: ADF9743D-D79A-39E8-80F1-2B867D8B6DF5', 'x86_64: AD9BEF7F-E579-3851-9625-5EF05272D38D' ]
+platform:        ios
+install-name:    '/System/Library/Frameworks/IntentsUI.framework/IntentsUI'
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _INUIRemoteViewControllerErrorDomain, _INUIVoiceShortcutExtensionItemBundleURLKey, 
+                       _INUIVoiceShortcutExtensionItemSandboxExtensionDataKey, _IntentsUIVersionNumber, 
+                       _IntentsUIVersionString, __INUIRemoteViewControllerErrorDomain, 
+                       __INUIUtilitiesBestFittingSizeForSizeBySystemVersionDictionary ]
+    objc-classes:    [ INUIAddVoiceShortcutButton, INUIAddVoiceShortcutViewController, 
+                       INUIAppIntentDeliverer, INUIEditVoiceShortcutViewController, 
+                       INUIExtensionRequestInfo, INUIExtensionViewControllerConfiguration, 
+                       INUIImageLoader, INUIImageServiceConnection, INUIImageSizeProvider, 
+                       INUIInterfaceSection, INUIPortableImageLoaderHelper, INUIRemoteViewController, 
+                       INUISearchFoundationImageAdapter, INUIVoiceShortcutXPCInterface, 
+                       _INUIExtensionContextState ]
+...

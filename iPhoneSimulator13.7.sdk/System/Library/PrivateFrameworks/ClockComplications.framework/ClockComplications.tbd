@@ -1,0 +1,21 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/ClockComplications.framework/ClockComplications"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _ClockComplicationsVersionNumber,
+                            _ClockComplicationsVersionString ]
+    objc-classes:         [ _CLKCBundleComplication, _CLKCComplication,
+                            _CLKCComplicationBundleDataSource,
+                            _CLKCComplicationBundleDataSourceContainer,
+                            _CLKCComplicationDataSource ]
+    objc-ivars:           [ _CLKCBundleComplication._appBundleIdentifier,
+                            _CLKCBundleComplication._bundleIdentifier,
+                            _CLKCComplicationDataSource._complication,
+                            _CLKCComplicationDataSource._delegate,
+                            _CLKCComplicationDataSource._device,
+                            _CLKCComplicationDataSource._family ]
+...

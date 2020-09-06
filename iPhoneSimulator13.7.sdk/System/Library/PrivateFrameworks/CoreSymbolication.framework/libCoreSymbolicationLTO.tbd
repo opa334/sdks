@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/libCoreSymbolicationLTO.dylib"
+current-version:       64535.33.2
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    allowed-clients:      [ "!" ]
+    symbols:              [ _Create, _Dispose, _Handler, _Initialize ]
+...

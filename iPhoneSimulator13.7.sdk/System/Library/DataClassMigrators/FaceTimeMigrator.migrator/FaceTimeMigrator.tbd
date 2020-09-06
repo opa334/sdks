@@ -1,0 +1,7 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/DataClassMigrators/FaceTimeMigrator.migrator/FaceTimeMigrator"
+current-version:       800
+compatibility-version: 1
+...

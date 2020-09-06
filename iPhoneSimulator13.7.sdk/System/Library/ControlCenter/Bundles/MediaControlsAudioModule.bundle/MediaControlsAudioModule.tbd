@@ -1,0 +1,13 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/ControlCenter/Bundles/MediaControlsAudioModule.bundle/MediaControlsAudioModule"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ x86_64, i386 ]
+    objc-classes:         [ _MediaControlsAudioModule ]
+    objc-ivars:           [ _MediaControlsAudioModule._backgroundViewController,
+                            _MediaControlsAudioModule._moduleViewController,
+                            _MediaControlsAudioModule._volumeController ]
+...

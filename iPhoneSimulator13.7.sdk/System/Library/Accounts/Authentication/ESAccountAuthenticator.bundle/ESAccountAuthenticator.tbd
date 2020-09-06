@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/Accounts/Authentication/ESAccountAuthenticator.bundle/ESAccountAuthenticator"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ x86_64, i386 ]
+    objc-classes:         [ _ESAccountAuthenticator ]
+    objc-ivars:           [ _ESAccountAuthenticator._accountIDToAccount,
+                            _ESAccountAuthenticator._accountIDToVerificationHandler ]
+...

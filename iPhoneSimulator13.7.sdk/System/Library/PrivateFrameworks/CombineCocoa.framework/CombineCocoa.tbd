@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/CombineCocoa.framework/CombineCocoa"
+current-version:       134.102
+compatibility-version: 0
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _CombineCocoaVersionNumber,
+                            _CombineCocoaVersionString ]
+...

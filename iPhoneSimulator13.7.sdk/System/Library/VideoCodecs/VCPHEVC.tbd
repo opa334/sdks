@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/VideoCodecs/VCPHEVC.videocodec"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _HEVCVideoDecoder_CreateInstance,
+                            _VCPHEVCRegisterDecoder, _VCPHEVCRegisterEncoder ]
+...

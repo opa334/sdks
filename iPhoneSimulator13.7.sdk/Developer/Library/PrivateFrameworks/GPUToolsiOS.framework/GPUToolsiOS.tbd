@@ -1,0 +1,18 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "@rpath/GPUToolsiOS.framework/GPUToolsiOS"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    objc-classes:         [ _DYPlaybackViewController, _DYiOSPlaybackEngine ]
+    objc-ivars:           [ _DYiOSPlaybackEngine._coreAnimationLayerMap,
+                            _DYiOSPlaybackEngine._hostLayer,
+                            _DYiOSPlaybackEngine._hostLayerSublayersVisibilityMap,
+                            _DYiOSPlaybackEngine._interfaceOrientation,
+                            _DYiOSPlaybackEngine._layerMap,
+                            _DYiOSPlaybackEngine._screenCenter,
+                            _DYiOSPlaybackEngine._topLayer,
+                            _DYiOSPlaybackEngine._viewController ]
+...

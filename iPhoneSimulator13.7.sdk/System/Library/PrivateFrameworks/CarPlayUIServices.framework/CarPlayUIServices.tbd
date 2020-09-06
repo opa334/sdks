@@ -1,0 +1,40 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/CarPlayUIServices.framework/CarPlayUIServices"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _CarPlayUIServicesVersionNumber,
+                            _CarPlayUIServicesVersionString ]
+    objc-classes:         [ _CRSDashboardFocusableItem,
+                            _CRSUIApplicationSceneSettings,
+                            _CRSUIApplicationSceneSettingsDiffInspector,
+                            _CRSUIApplicationSceneSpecification,
+                            _CRSUIDashboardWidgetSceneSettings,
+                            _CRSUIDashboardWidgetSceneSpecification,
+                            _CRSUIDashboardWidgetWindow,
+                            _CRSUIInstrumentClusterSceneSettings,
+                            _CRSUIInstrumentClusterSceneSpecification,
+                            _CRSUIMutableApplicationSceneSettings,
+                            _CRSUIMutableDashboardWidgetSceneSettings,
+                            _CRSUIMutableInstrumentClusterSceneSettings,
+                            _CRSUIMutableProxyApplicationSceneSettings,
+                            _CRSUIMutableTemplateDashboardWidgetSceneSettings,
+                            _CRSUIProxyApplicationSceneSettings,
+                            _CRSUIProxyApplicationSceneSpecification,
+                            _CRSUITemplateDashboardWidgetSceneSettings,
+                            _CRSUITemplateDashboardWidgetSceneSpecification,
+                            _CRSUIWindow ]
+    objc-ivars:           [ _CRSDashboardFocusableItem._focusProvidingItem,
+                            _CRSDashboardFocusableItem._frameInWindow,
+                            _CRSDashboardFocusableItem._identifier,
+                            _CRSUIDashboardWidgetWindow._dashboardWindowServiceConnection,
+                            _CRSUIDashboardWidgetWindow._focusableItems,
+                            _CRSUIDashboardWidgetWindow._widgetSizes,
+                            _CRSUIWindow._bannerHeight,
+                            _CRSUIWindow._heightConstraint,
+                            _CRSUIWindow._notificationLayoutGuide,
+                            _CRSUIWindow._settingsDiffInspector ]
+...

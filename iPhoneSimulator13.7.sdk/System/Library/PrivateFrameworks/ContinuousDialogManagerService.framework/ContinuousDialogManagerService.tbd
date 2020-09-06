@@ -1,0 +1,22 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/ContinuousDialogManagerService.framework/ContinuousDialogManagerService"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _CDMAssetTypeEmbeddedNL, _CDMDefaultsDomain,
+                            _CDMIsReadyForLocale, _CDMLogContext,
+                            _CDMLogInitIfNeeded, _CDMLoggingCategory,
+                            _CDMLoggingSubsystem,
+                            _CDMSetupXPCClientErrorCodeXPCError,
+                            _CDMSetupXPCClientErrorDomain,
+                            _CDMXPCClientErrorCodeXPCError,
+                            _CDMXPCClientErrorDomain,
+                            _ContinuousDialogManagerServiceVersionNumber,
+                            _ContinuousDialogManagerServiceVersionString ]
+    objc-classes:         [ _CDMSetupXPCClient, _CDMXPCClient ]
+    objc-ivars:           [ _CDMSetupXPCClient._connection,
+                            _CDMXPCClient._connection, _CDMXPCClient._delegate ]
+...

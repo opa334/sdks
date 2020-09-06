@@ -1,0 +1,15 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/HealthOntology.framework/HealthOntology"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _HealthOntologyVersionNumber,
+                            _HealthOntologyVersionString ]
+    objc-classes:         [ _HNNode, _HNOntology, _HNPredicate, _HNQuery,
+                            _HNRelationship ]
+    objc-ivars:           [ _HNNode._identifier, _HNNode._properties,
+                            _HNQuery._predicate, _HNRelationship._type ]
+...

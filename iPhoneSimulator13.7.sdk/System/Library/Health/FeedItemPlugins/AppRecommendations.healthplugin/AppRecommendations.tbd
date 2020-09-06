@@ -1,0 +1,7 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/Health/FeedItemPlugins/AppRecommendations.healthplugin/AppRecommendations"
+current-version:       0
+compatibility-version: 0
+...

@@ -1,0 +1,9 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 43C916C1-BCD7-3553-9AA3-49A926618547', 'x86_64: 935EB135-B463-31A2-8DA2-2B29FAB42FC3' ]
+platform:        ios
+install-name:    '/System/Library/Frameworks/AdSupport.framework/AdSupport'
+exports:         
+  - archs:           [ i386, x86_64 ]
+    objc-classes:    [ ASIdentifierManager ]
+...

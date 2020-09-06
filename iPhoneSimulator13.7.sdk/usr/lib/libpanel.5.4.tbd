@@ -1,0 +1,16 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 4AB217DC-89EE-378F-A706-E3C7BB3F600C', 'x86_64: 2E43309F-2987-31C7-8EE1-D08855AB5AB8' ]
+platform:        ios
+install-name:    '/usr/lib/libpanel.5.4.dylib'
+current-version: 5.4
+compatibility-version: 5.4
+exports:         
+  - archs:           [ i386 ]
+    symbols:         [ ___panel_5_4VersionNumber, ___panel_5_4VersionString ]
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _bottom_panel, _del_panel, _hide_panel, _move_panel, _new_panel, 
+                       _panel_above, _panel_below, _panel_hidden, _panel_userptr, 
+                       _panel_window, _replace_panel, _set_panel_userptr, _show_panel, 
+                       _top_panel, _update_panels ]
+...

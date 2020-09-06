@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 05538001-2011-3662-AC22-2EDC3A7E3A41', 'x86_64: EA5FC60D-B185-3FC5-84A6-1BCC9F4261A1' ]
+platform:        ios
+install-name:    '/System/Library/CoreServices/Encodings/libTraditionalChineseConverter.dylib'
+current-version: 76
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ ___CFStringEncodingGetTraditionalChineseConverterDefinition ]
+...

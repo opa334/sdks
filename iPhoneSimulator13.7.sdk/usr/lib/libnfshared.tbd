@@ -1,0 +1,30 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 00000000-0000-0000-0000-000000000000', 'x86_64: 48D68DD2-2B20-34C5-AC15-35D69B6B8496' ]
+platform:        ios
+install-name:    '/usr/lib/libnfshared.dylib'
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _GetElapsedTimeInMillisecondsFromMachTime, _NFCreateRootQueue, 
+                       _NFDataAppend, _NFDataAppendBytes, _NFDataAsHexString, _NFDataCreateWithBytes, 
+                       _NFDataCreateWithBytesNoCopy, _NFDataCreateWithFile, _NFDataCreateWithHexString, 
+                       _NFDataCreateWithLength, _NFDataPrintAsHexString, _NFDataRelease, 
+                       _NFDataRetain, _NFDataScannerCreateWithData, _NFDataScannerEOF, 
+                       _NFDataScannerRead, _NFDataScannerRead16, _NFDataScannerRead32, 
+                       _NFDataScannerRead8, _NFDataScannerReadData, _NFDataScannerRelease, 
+                       _NFDataScannerRetain, _NFGetRootQueue, _NFGetThreadPriority, 
+                       _NFSetRootQueue, _NFSetThreadPriority, _NFSharedDumpTransport, 
+                       _NFSharedLogLock, _NFSharedLogSetSynchronousLogging, _NFSharedLogTransport, 
+                       _NFSharedLogUnlock, _NFSharedLogv, _NFSharedLogv_GreenTea, 
+                       _NFSharedSignpostLog, _NFSimulateCrash, _NF_isFeatureSupported, 
+                       _TLVCreateWithData, _TLVCreateWithDataMixed, _TLVCreateWithFirstChild, 
+                       _TLVCreateWithValue, _TLVRelease, _TLVRetain, __NFSharedLogClose, 
+                       __NFSharedLogOpen, ___NFSharedLogv, _gRootQueueMutex, _postAWDHardwareExceptionEvent, 
+                       _postAWDLPCDStatistic, _postAWDMainSERemovedEvent, _postAWDMiddlewareExceptionEvent, 
+                       _resetAWDLoadStackExceptionCount ]
+    objc-classes:    [ NFAWDLogger, NFCurrency, NFJSONEncoder, NFMSEIParser, NFMemoryObserver, 
+                       NFNdefMessageInternal, NFNdefRecordInternal, NFPowerAssertion, 
+                       NFPowerObserver, NFPreferenceObserver, NFPropertyCoder, NFReaderSessionConfig, 
+                       NFRunScriptParameters, NFTLV, NFTagInternal, NFTimer, NFVASPassConfig, 
+                       NFWeakReference ]
+...

@@ -1,0 +1,24 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/AccessibilityBundles/CameraEditKitFramework.axbundle/CameraEditKitFramework"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _AXScaleAsymmetricSliderValuesBetween,
+                            _AXScaleSymmetricSliderValuesBetween,
+                            _AXScaledSliderValues,
+                            _accessibilityCameraEditKitD2xLocalizedString ]
+    objc-classes:         [ _AXCameraEditKitFrameworkGlue,
+                            _CEKApertureButtonAccessibility,
+                            _CEKApertureSliderAccessibility,
+                            _CEKLightingControlAccessibility,
+                            _CEKSliderAccessibility,
+                            _CEKWheelScrubberViewAccessibility,
+                            ___CEKApertureButtonAccessibility_super,
+                            ___CEKApertureSliderAccessibility_super,
+                            ___CEKLightingControlAccessibility_super,
+                            ___CEKSliderAccessibility_super,
+                            ___CEKWheelScrubberViewAccessibility_super ]
+...

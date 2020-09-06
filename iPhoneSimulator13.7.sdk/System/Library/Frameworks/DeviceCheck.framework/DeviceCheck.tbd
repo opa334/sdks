@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 00000000-0000-0000-0000-000000000000', 'x86_64: 10384E2F-EE99-3792-855C-E4AA904ED369' ]
+platform:        ios
+install-name:    '/System/Library/Frameworks/DeviceCheck.framework/DeviceCheck'
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _DCErrorDomain, __DCLogSystem ]
+    objc-classes:    [ DCContext, DCDevice, DCDeviceMetadataInterface ]
+...

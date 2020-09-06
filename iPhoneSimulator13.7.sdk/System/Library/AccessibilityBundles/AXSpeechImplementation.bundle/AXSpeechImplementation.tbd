@@ -1,0 +1,14 @@
+---
+archs:                 [ x86_64, i386 ]
+platform:              ios-simulator
+install-name:          "/System/Library/AccessibilityBundles/AXSpeechImplementation.bundle/AXSpeechImplementation"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ x86_64, i386 ]
+    symbols:              [ _AXPublicSpeechLanguageCanonicalFormToGeneralLanguage,
+                            __AXSortAVSpeechSynthesisVoices ]
+    objc-classes:         [ _AXSpeechActionPublicImplementation,
+                            _AXSpeechPublicInterface,
+                            ___AXSpeechActionPublicImplementation_super ]
+...
